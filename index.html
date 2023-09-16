@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal - Lessiel Ramírez</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Lessiel Ramírez</h1>
+                <p>Estudiante de Diseño y Desarrollo de Software en Tecsup</p>
+            </div>
+            <!-- Imagen con tamaño ajustado -->
+            <img src="https://static.vecteezy.com/system/resources/previews/014/347/809/non_2x/happy-woman-crowd-icon-cartoon-man-person-vector.jpg" alt="Lessiel Ramírez" width="200">
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>Sobre Mí</h2>
+        <p>Soy apasionado por la programación y la tecnología. Actualmente, estudio en Tecsup y me estoy especializando en el desarrollo de software utilizando lenguajes como Java y Python.</p>
+        <p>Además, tengo un nivel de inglés C1, lo que me permite comunicarme con fluidez en este idioma y trabajar en diversos proyectos.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Tecnologías y Lenguajes de Programación</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Formación Profesional</h2>
+        <p>Actualmente, me encuentro estudiando en Tecsup, donde estoy adquiriendo conocimientos sólidos en el campo del diseño y desarrollo de software.</p>
+    </section>
+
+    <section class="languages">
+        <h2>Idiomas</h2>
+        <p>Mis habilidades en idiomas incluyen:</p>
+        <ul>
+            <li>Inglés (Nivel C1)</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form action="tu_proceso_de_envio.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="presentation">
+        <h2>Video de Presentación</h2>
+        <video controls width="400">
+            <source src="Concorde.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos Destacados</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Calculadora</td>
+                    <td>Calculadora en Python para realizar operaciones matemáticas básicas de manera fácil y rápida. Quería tener una herramienta personalizada que me permitiera realizar cálculos en cualquier momento.</td>
+                </tr>
+                <tr>
+                    <td>GestorPark</td>
+                    <td>Aplicación desarrollada con Java Virtual Machine (Java VM) para gestionar y administrar un estacionamiento de vehículos. Cubre la necesidad de optimizar la gestión de un aparcamiento público o privado, haciendo que la experiencia de los usuarios sea más fluida y eficiente.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
